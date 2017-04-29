@@ -4,7 +4,8 @@
 
 #include "BigInt.h"
 
-const unsigned int NDIGITS_DEF = 200;
+// This default number of digits if not argument is specified
+const unsigned int NDIGITS_DEF = 1000;
 
 // Compute digits of Pi to any precision based on Machin's formula:
 // pi = 4*(4 * arctan(1/5) - arctan(1/239))
